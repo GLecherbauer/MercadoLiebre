@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+
+  p i{
+    padding:6px;
+  }
+
+
+  article{
+    margin-bottom:10px;
+    background-color: white;
+    padding:10px;
+    width:100%;
+    
+  }
+
+  article:hover {
+    box-shadow: 0 2px 3px 4px rgba(0, 0, 0, 15%);
+  }
+
+
+
+body {
+    font-family: 'roboto';
+    font-size:12px;
+    background-color: #e0dfdf;
+    margin:0;
+}
+
+.main-text{
+    font-size:12px
+}
+
+.title-section{
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.banner00{
+    width:100%;
+}
+
+
+ul {
+    list-style: none;
+}
+
+.price {
+    font-size:18px;
+    margin: 10px 0px 10px 0px;
+    
+}
+
+.discount{
+font-size: 16px;
+color:#39b54a;
+margin:0;
+
+}
+
+.description{
+   display:none;
+   transition: all 450ms;
+    
+}
+
+article:hover .description{
+  display: unset;
+  font-size: 14px;
+  position: relative;
+}
+
+
+.logo{
+    width:50%;
+
+}
+
+.barra{
+    width: 50%;
+    display: inline-block;
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    flex-direction: column-reverse;
+}
+
+.burger-menu{
+    width: 100wv;
+    display: inline-block;
+}
+
+
+.comprar-cuota{
+    margin: 2px;
+    text-align: center;
+    width: 100vw;
+
+  }
+
+.logo img{
+
+    height:100%;
+    width:100%;
+
+}
+
+.barra input{
+    width: 80%;
+    display: flex;
+
+}
+
+.burger-menu i{
+    width: 25%;
+    display: inline-block;
+}
+
+
+article i{
+  color: green;
+  font-size: 15px;
+  padding: 5px;
+  border: green 1px solid;
+  border-radius: 50%;
+  transition: all 500ms;
+
+}
+
+article i:hover {
+    transform: rotate(-90deg);
+
+}
+
+.product{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.productos{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:10px;
+}
+
+
+article img{
+    width:100%;
+    border-bottom: 1px solid rgba(139, 139, 139, 30%);
+    margin: 5px;
+
+}
+
+
+.main-footer{
+
+    text-align:center;
+    font-family: 'roboto';
+    background-color: white;
+    display: flex;
+    padding:10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+}
+
+footer h4{
+    color:rgba(89, 89, 151, 0.815);
+    font-weight: bold;
+    font-size:16px;
+}
+
+.paragraph {
+
+    font-size:14px;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.copyright{
+    font-size:9px;
+}
+
+
+.header-style{
+    background-color: #EAC926;
+    padding:10px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.centrado{
+    text-align: center;
+    padding:10px;
+}
+
+
+.burger-menu i{
+    width: 35px;
+    height: 35px;
+    background-color: #1259c3;
+    font-size:25px;
+    color:white;
+    margin:auto;
+    border-radius:5px;
+    text-align:center;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+footer i{
+
+    font-size:25px;
+    width:100%;
+    color:#1259c3;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+
+.navbar1 , .navbar2
+  {
+    display:none;
+}
+
+
+footer{
+    background-color: white;
+    text-align:center;  
+    bottom:0;
+    width:100%;
+    
+}
+
+footer h5{
+    margin: 0;
+    border: 0;
+    padding: 2;
+}
+
+form {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+label input {
+    margin: 10px;
+    width: 60vw;
+    padding: 10px;
+    border: 1px transparent;
+    border-radius: 5px;
+  }
+
+.boton{
+     width:10vw;  
+}
+
+.submit {
+    background-color: #3483fa;
+    color: white;
+    height: 30px;
+    transition: all 500ms;
+  }
+
+ .submit:hover {
+    background-color: #1f4e96;
+  }
+
+  .titulos-formulario{
+    font-size: 14px;
+  }
+@media (min-width:500px) {
+
+    .logo{
+        width:25%;
+    
+    }
+
+    .barra{
+        width:45%;
+
+        
+    }
+
+    .comprar-cuota{
+        width: 22vw;
+        font-size: 10px;
+      }
+    
+
+
+    .productos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .navbar1{
+        display:flex;
+        justify-content: start;
+        width:40vw;
+        
+    }
+
+    .navbar2{
+        display:flex;
+        justify-content: end;
+        width:40vw;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        
+    }
+
+    ul li{
+        padding:5px;
+
+    }
+   
+    .burger-menu {
+        display:none;
+    }
+
+    article{
+        width:40%;
+        padding:10px;
+        margin:10px;
+    }
+    .navbar{
+        display:flex;
+        flex-direction: row;
+    }
+}
+
+@media (min-width:769px) {
+
+    article {
+        width:20%;
+
+    }
+
+    .description{
+        display:none;
+        transition: all 450ms;
+         
+     }
+     
+     article:hover .description{
+       display: unset;
+       font-size: 12px;
+       position: relative;
+     }
+     
+}
+
