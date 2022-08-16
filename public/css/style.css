@@ -172,6 +172,7 @@ article img{
     padding:10px;
     justify-content: space-around;
     flex-wrap: wrap;
+    flex-direction: column;
 
 
 }
@@ -184,9 +185,8 @@ footer h4{
 
 .paragraph {
 
-    font-size:14px;
+    font-size:10px;
     text-align:center;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     justify-items: center;
